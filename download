@@ -1,0 +1,21 @@
+# Ignore any file with real credentials
+*.env
+config/config.gs
+*config.local*
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
+
+# Ignore editor files
+.vscode/
+.idea/
+*.swp
+
+# Ignore any exported sheets with real data
+*.xlsx
+*.csv
+*.json
+
+# Ignore logs
+*.log
